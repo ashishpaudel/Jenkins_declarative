@@ -1,9 +1,9 @@
 pipeline{
     agent any
     stages{
-        stage("Buld"){
+        stage("Build"){
             step{
-                echo "This is Bulding process."
+                echo "This is Building process."
             }
         }
 
